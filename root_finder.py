@@ -1,6 +1,7 @@
 import math
 
-
+# Give a lambda function such as:
+# lambda x: x**4 - math.cos(x) - 5
 def rootfinder(func, startX: float=-1000000, endX: float=1000000, maxIterations: int=120):
     positive = 0
     negative = 0
